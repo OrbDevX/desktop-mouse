@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101827">
+  <title>Desktop Mouse — Download</title>
+  <style>
+    :root { color-scheme: dark; font-family: Inter, Segoe UI, Arial, sans-serif; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh; display: grid; place-items: center;
+      padding: 28px; color: #edf4ff;
+      background: radial-gradient(circle at 50% 0%, #20395b 0, #101827 55%, #0b1220 100%);
+    }
+    main {
+      width: min(100%, 620px); padding: 42px; text-align: center;
+      background: rgba(22, 34, 53, .94); border: 1px solid #30445f;
+      border-radius: 24px; box-shadow: 0 24px 80px #0008;
+    }
+    .icon { font-size: 58px; margin-bottom: 12px; }
+    .eyebrow { color: #8dbfff; font-size: 12px; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; }
+    h1 { margin: 10px 0; font-size: clamp(32px, 7vw, 48px); }
+    p { color: #b9c8dc; line-height: 1.65; }
+    .download {
+      display: inline-block; margin: 22px 0 12px; padding: 15px 25px;
+      border-radius: 12px; background: #75b8ff; color: #071525;
+      font-weight: 800; text-decoration: none; transition: transform .15s, background .15s;
+    }
+    .download:hover { transform: translateY(-2px); background: #9acbff; }
+    .details { margin-top: 24px; padding-top: 18px; border-top: 1px solid #30445f; font-size: 13px; }
+    .details strong { color: #edf4ff; }
+    footer { margin-top: 25px; color: #7f91a9; font-size: 12px; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="icon" aria-hidden="true">🐭</div>
+    <div class="eyebrow">Windows application</div>
+    <h1>Desktop Mouse</h1>
+    <p>A tiny desktop visitor. Download the installer below to get started.</p>
+    <a class="download" href="Desktop%20Mouse%20Installer.exe" download>
+      Download for Windows
+    </a>
+    <div class="details">
+      <p><strong>File:</strong> Desktop Mouse Installer.exe<br>
+      <strong>Compatibility target:</strong> Windows 10 or later (64-bit)</p>
+      <p>Only run the installer if you trust where it came from. Windows may show a security warning for apps that are not widely recognized or signed.</p>
+    </div>
+    <footer>Desktop Mouse · Installer download</footer>
+  </main>
+</body>
+</html>
